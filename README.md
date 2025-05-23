@@ -65,8 +65,7 @@ export class UserModule {}
 > 2. Click Generate New Private Key, then confirm by clicking Generate Key.
 > 3. Securely store the JSON file containing the key.
 
-11. Create a `.env` file in the root of the project and add your service account:
-Add your service account json file path to the `.env` file:
+11. Create a `.env` file in the root of the project and add your service account path:
 ```env
 SERVICE_ACCOUNT_KEY_PATH="./serviceAccountKey.json"
 ```
