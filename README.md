@@ -20,7 +20,7 @@ This NestJS project shows how to deploy to Firebase Functions using NestFire.
         - **Answer:** No
 5. Delete the `functions` folder created by Firebase.
 6. In the `firebase.json` file, change this:
-```json
+```ts
 {
   //...
   "functions": {
@@ -72,7 +72,7 @@ SERVICE_ACCOUNT_KEY_PATH="./serviceAccountKey.json"
 ```
 
 12. In you package.json file add `"main": "src/index.js"`
-```json
+```ts
 {
   //...
   "main": "src/index.js",
