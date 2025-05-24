@@ -1,6 +1,7 @@
 # NestFire Example
 This NestJS project shows how to deploy to Firebase Functions using NestFire.
 
+> NPM [NestFire](https://www.npmjs.com/package/nestfire?activeTab=readme)
 > Node version used in this example: `v22.11.0`
 
 ## If you only will clone this project
