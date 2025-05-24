@@ -5,7 +5,7 @@ This NestJS project shows how to deploy to Firebase Functions using NestFire.
 
 > Node version used in this example: `v22.11.0`
 
-## If you only will clone this project
+## If you will clone this project
 1. Run `npm install`.
 2. Put your project name in `.firebaserc`.
 3. Add a service account json. (See the 10th step below for details.)
