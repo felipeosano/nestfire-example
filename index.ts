@@ -1,5 +1,5 @@
 /**
- * Auto-generated file.
+ * Auto-generated file by NestFire.
  *
  * firebaseFunctionsHttpsDeployment will deploy each NestJS module
  * annotated with `@FirebaseHttps(EnumFirebaseFunctionVersion.V1, { memory: '256MB' })`
