@@ -84,11 +84,11 @@ export class UserModule {}
 SERVICE_ACCOUNT_KEY_PATH="./serviceAccountKey.json"
 ```
 
-12. In you package.json file add `"main": "src/index.js"`
+12. In you package.json file add `"main": "dist/index.js"`
 ```ts
 {
   //...
-  "main": "src/index.js",
+  "main": "dist/index.js",
   //...
 }
 ```
