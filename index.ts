@@ -10,14 +10,12 @@
  *
  */
 
-
 import { AppModule } from 'src/app.module';
 import { firebaseFunctionsHttpsDeployment } from 'nestfire';
 
-export = firebaseFunctionsHttpsDeployment(AppModule);
+const httpsFunctions: Record<string, any> =
+  firebaseFunctionsHttpsDeployment(AppModule);
 
-/**
-* 👇 If you want to deploy Firestore triggers, export them below:
-* Example: export { orderTrigger } from './src/triggers/order/order.trigger';
-* More examples: https://github.com/felipeosano/nestfire.git#firestore-trigger
-*/
+module.exports = {
+  ...httpsFunctions,
+};
